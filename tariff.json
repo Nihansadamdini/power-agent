@@ -1,0 +1,22 @@
+
+{
+  "_note": "SAMPLE VALUES FOR DEMONSTRATION ONLY. CEB/PUCSL tariffs are revised often. Replace with the current domestic tariff before relying on results.",
+  "_source": "Sample data, not an official CEB/PUCSL tariff",
+  "_as_of": "Not applicable (sample)",
+  "blocks": [
+    {"upto": 30,   "rate": 5.0},
+    {"upto": 60,   "rate": 10.0},
+    {"upto": 90,   "rate": 20.0},
+    {"upto": 120,  "rate": 30.0},
+    {"upto": 180,  "rate": 40.0},
+    {"upto": null, "rate": 60.0}
+  ],
+  "fixed_charges": [
+    {"upto": 30,   "fixed": 100},
+    {"upto": 60,   "fixed": 200},
+    {"upto": 90,   "fixed": 400},
+    {"upto": 120,  "fixed": 1000},
+    {"upto": 180,  "fixed": 1500},
+    {"upto": null, "fixed": 2000}
+  ]
+}
